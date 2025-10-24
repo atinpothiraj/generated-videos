@@ -1,0 +1,49 @@
+{
+  "video_mappings": {
+    "wan2": {
+      "model": "Wan2",
+      "description": "Videos generated using Wan2 text-to-video model",
+      "releases": {
+        "v1.0-test": {
+          "release_name": "Test Release - Wan2 Video",
+          "release_date": "2025-10-24",
+          "videos": [
+            {
+              "filename": "t2v-14B_1280x720_4_1_Two_pillows_on_a_table_and_two_grabber_tools_hangi_20250821_153622.mp4",
+              "url": "https://github.com/atinpothiraj/generated-videos/releases/download/v1.0-test/t2v-14B_1280x720_4_1_Two_pillows_on_a_table_and_two_grabber_tools_hangi_20250821_153622.mp4",
+              "size_mb": 4.9,
+              "prompt": "Two pillows on a table and two grabber tools hanging",
+              "model_params": {
+                "resolution": "1280x720",
+                "frames": 4,
+                "seed": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    "hunyuan": {
+      "model": "HunyuanVideo",
+      "description": "Videos generated using HunyuanVideo model",
+      "releases": {}
+    },
+    "sora2": {
+      "model": "Sora2",
+      "description": "Videos generated using Sora2 model", 
+      "releases": {}
+    }
+  },
+  "mturk_integration": {
+    "base_url": "https://github.com/atinpothiraj/generated-videos/releases/download/",
+    "url_format": "{base_url}{release_tag}/{filename}",
+    "example_url": "https://github.com/atinpothiraj/generated-videos/releases/download/v1.0-test/t2v-14B_1280x720_4_1_Two_pillows_on_a_table_and_two_grabber_tools_hangi_20250821_153622.mp4"
+  },
+  "repository_info": {
+    "url": "https://github.com/atinpothiraj/generated-videos",
+    "releases_url": "https://github.com/atinpothiraj/generated-videos/releases",
+    "total_videos": 1,
+    "total_size_mb": 4.9,
+    "last_updated": "2025-10-24"
+  }
+}
